@@ -29,4 +29,4 @@ template File.join(deploy_dir, "mesos-slave-env.sh") do
   group "root"
 end
 
-
+include_recipe 'mesos::docker'
